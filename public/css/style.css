@@ -1,0 +1,34 @@
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 70px;
+  text-align: center;
+  margin: 10px;
+  font-style: italic;
+}
+
+h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+  font-style: italic;
+}
+
+.textarea {
+  display: flex;
+  justify-content: center;
+}
+
+.count-words {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+p {
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  font-style: italic;
+}

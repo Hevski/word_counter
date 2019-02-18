@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Counter</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <script src="./js/bundle.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>WORD COUNTER</h1>
+      <h2>Enter Some Text:</h2>
+      <div class="textarea">
+      <textarea v-model="words" id="" cols="70" rows="10"></textarea>
+      </div>
+      <div class="count-words">
+      <button v-on:click="countWords">Count Words</button>
+      </div>
+      <p>This phrase contains {{ count }} words!</p>
+    </div>
+
+  </body>
+</html>
